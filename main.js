@@ -119,6 +119,10 @@ const translationEn = {
     UnityTitle: "Misc Unity Projects",
     UnityDesc: "Other smaller Unity projects",
 
+    //Boble
+    BobleTitle: "Boble",
+    BobleDesc: "A Global Game Jam game with the theme: \"Bubbles\".",
+
     // -- Project Pages
 
     //Pong
@@ -175,6 +179,36 @@ const translationEn = {
     ZTTName: "Zandvoort Turbo Tour",
     ZTTText1: "Zandvoort Turbo Tour is a racing game made for a Deep Dive. You race against 1 other racer in the racetrack of Zandvoort. You have to switch gears and watch the health of your tires while you are driving. If your wheels break while driving you will get a huge debuff. You can fix your wheels in the pitstop.",
     ZTTText2: "ZTT was made for a teacher during a Deep Dive at school. We had 1 school week to make the game and the only requirements we had was to make it a racing game. This game was made with a group of 5 people. Personally I worked on controller/wheel support and wheel breaking/varients.",
+
+    PromotionName: "Give me a Promotion!",
+    PromotionText1: "Give me a Promotion!",
+    PromotionText2: "Give me a Promotion!",
+
+    TBRName: "Give me a Promotion!",
+    TBRText1: "Give me a Promotion!",
+    TBRText2: "Give me a Promotion!",
+
+    TBAName: "Give me a Promotion!",
+    TBAText1: "Give me a Promotion!",
+    TBAText2: "Give me a Promotion!",
+
+    CSName: "Give me a Promotion!",
+    CSChapter1: "e",
+    CSText1: "Give me a Promotion!",
+    CSText2: "Give me a Promotion!",
+    CSChapter2: "e",
+    CSText3: "Give me a Promotion!",
+    CSChapter3: "e",
+    CSText4: "Give me a Promotion!",
+
+    UnityName: "Give me a Promotion!",
+    UnityText1: "Give me a Promotion!",
+    UnityChapter1: "e",
+    UnityText2: "Give me a Promotion!",
+
+    BobLeName: "Boble",
+    BobLeText1: "Boble",
+    BobLeText2: "Boble",
 }
 
 
@@ -706,7 +740,7 @@ new gameCard("Zandvoort Turbo Tour",
         "English"
     ]
 ),
-/*new gameCard("Give me a promotion!",
+new gameCard("Give me a promotion!",
     "A government serious game about learning how to name and sort files",
     "./Images/2024/Promotion/Pro_CardImg.png",
     "./Projects/2024/Promotion.html",
@@ -726,7 +760,7 @@ new gameCard("TBRPG",
     "./Images/UnknownTime/TBR_CardImg.png",
     "./Projects/UnknownTime/TBRPG.html",
     "TBR",
-    11,
+    0,
     [
         "School",
         "Solo",
@@ -739,7 +773,7 @@ new gameCard("TextBased",
     "./Images/UnknownTime/TBA_CardImg.png",
     "./Projects/UnknownTime/TextBased.html",
     "TBA",
-    12,
+    0,
     [
         "School",
         "Solo",
@@ -752,7 +786,7 @@ new gameCard("Misc C# Projects",
     "./Images/UnknownTime/Rogue_CardImg.png",
     "./Projects/UnknownTime/MiscCS.html",
     "CS",
-    13,
+    0,
     [
         "School",
         "Home",
@@ -767,13 +801,25 @@ new gameCard("Misc Unity projects",
     "./Images/UnknownTime/Pirate_CardImg.png",
     "./Projects/UnknownTime/MiscUnity.html",
     "Unity",
-    14,
+    0,
     [
         "Unity",
         "School",
         "Solo"
     ]
-),*/
+),
+new gameCard("Boble",
+    "A global game jam game with the theme: \"Bubbles\".",
+    "./Images/2025/Boble/Boble-CardImg.png",
+    "./Projects/2025/Boble.html",
+    "Boble",
+    15,
+    [
+        "Unity",
+        "School",
+        "Solo"
+    ]
+),
 ];
 
 
