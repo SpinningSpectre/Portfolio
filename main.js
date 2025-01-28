@@ -817,7 +817,10 @@ new gameCard("Boble",
     [
         "Unity",
         "School",
-        "Solo"
+        "Team",
+        "English",
+        "GameJam",
+        "2025"
     ]
 ),
 ];
