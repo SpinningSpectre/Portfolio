@@ -119,9 +119,25 @@ const translationEn = {
     UnityTitle: "Misc Unity Projects",
     UnityDesc: "Other smaller Unity projects",
 
+    //Golems Beyond
+    GolemsTitle: "GolemsBeyond",
+    GolemsDesc: "A VR dungeon crawler",
+
+    //DDZ
+    DDZTitle: "TaskMaster",
+    DDZDesc: "A deep dive game about doing tasks",
+
     //Boble
     BobleTitle: "Boble",
     BobleDesc: "A Global Game Jam game with the theme: \"Bubbles\".",
+
+    //Permafrost
+    PermafrostTitle: "Permafrost",
+    PermafrostDesc: "An action horror game where you go through a train",
+
+    //TAU
+    TAUTitle: "Small Guy, Big Plan",
+    TAUDesc: "A Global Game Jam game with the theme: \"Masks\".",
 
     // -- Project Pages
 
@@ -608,7 +624,8 @@ let allCards = [
         "2022",
         "School",
         "Solo",
-        "English"
+        "English",
+        "Active"
     ]
 ),
     new gameCard("Tank Game",
@@ -808,19 +825,76 @@ new gameCard("Misc Unity projects",
         "Solo"
     ]
 ),
-new gameCard("Boble",
-    "A global game jam game with the theme: \"Bubbles\".",
+new gameCard("Golems Beyond",
+    "A VR dungeon crawler",
     "./Images/2025/Boble/Boble-CardImg.png",
-    "./Projects/2025/Boble.html",
-    "Boble",
-    15,
+    "./Projects/2024/Golems.html",
+    "Golem",
+    11,
+    [
+        "Unity",
+        "School",
+        "Team",
+        "2024"
+    ]
+),
+new gameCard("TaskMaster",
+    "A deep dive game about doing tasks",
+    "./Images/2024/TaskMaster/DDZ-CardImg.png",
+    "./Projects/2024/TaskMaster.html",
+    "DDZ",
+    12,
     [
         "Unity",
         "School",
         "Team",
         "English",
         "GameJam",
+        "2024"
+    ]
+),
+new gameCard("Boble",
+    "A global game jam game with the theme: \"Bubbles\".",
+    "./Images/2025/Boble/Boble-CardImg.png",
+    "./Projects/2025/Boble.html",
+    "Boble",
+    13,
+    [
+        "Unity",
+        "Team",
+        "English",
+        "GameJam",
         "2025"
+    ]
+),
+new gameCard("Permafrost",
+    "An action horror game where you go through a train",
+    "./Images/2025/Permafrost/Permafrost-CardImg.png",
+    "./Projects/2025/Permafrost.html",
+    "Permafrost",
+    14,
+    [
+        "Unity",
+        "School",
+        "Team",
+        "English",
+        "2025",
+        "Active"
+    ]
+),
+new gameCard("Small guy Big plan",
+    "A global game jam game with the theme: \"Masks\".",
+    "./Images/2026/TAU/TAU-CardImg.png",
+    "./Projects/2025/SmallGuyBigPlan.html",
+    "TAU",
+    15,
+    [
+        "Unity",
+        "Team",
+        "English",
+        "GameJam",
+        "2026",
+        "Active"
     ]
 ),
 ];
